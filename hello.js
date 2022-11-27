@@ -1,9 +1,9 @@
-const cowsay = require("cowsay");
+var cowsay = require("cowsay");
 
 console.log(
-    cowsay.say({
-        text: "Arunesh is a gud boi :>",
-        e = "oo",
-        T = "U",
-    })
+  cowsay.say({
+    text: "I'm a moooodule",
+    e: "oO",
+    T: "U ",
+  })
 );
